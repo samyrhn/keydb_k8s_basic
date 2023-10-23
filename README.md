@@ -3,7 +3,7 @@ kubectl apply -f keydb-deployment.yaml
 
 kubectl apply -f keydb-service.yaml
 
-kubectl exec -it <pod-name> -- /bin/sh
+kubectl exec -it pod-name -- /bin/sh
 
 
 apt update
